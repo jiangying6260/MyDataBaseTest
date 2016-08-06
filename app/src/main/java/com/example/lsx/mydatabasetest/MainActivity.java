@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 SQLiteDatabase db=dbHelper.getWritableDatabase();
                 ContentValues values = new ContentValues();
                 values.put("price", 9.99);
-                db.update("Book", values,"name=?", new String[]{"The Da Vinci Code"});
+                db.update("Book", values,"name=?", new String[]{"The Da Vinci Dode"});
             }
         });
     }
